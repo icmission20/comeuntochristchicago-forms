@@ -128,4 +128,7 @@ select:-webkit-autofill {
 	.formButton {
 		font-size: 18px;
 	}
+	.customFormText {
+		font-size: 20px;
+	}
 }
