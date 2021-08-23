@@ -11,7 +11,7 @@ function onLoad() {
 const form = document.forms['comeuntochrist-form'];
 form.addEventListener('submit', e => {
 	console.log('test');
-	const scriptURL = "https://script.google.com/macros/s/AKfycbwzM0Ki3NNPH5UfEkjT2Ho3L-VMYYo3fOqzehkQ89wYsLVgzJjyg2mrPEzIeFLx861U/exec";
+	const scriptURL = "https://script.google.com/macros/s/AKfycbx2cUQpyDu5gSREiczUlRYVOelNGQ1SUAor3NAUd7XSrK8bjVvrscYwXkkaciJ-UqQ_/exec";
 	e.preventDefault();
 	fetch(scriptURL, {
 		method: 'POST',
